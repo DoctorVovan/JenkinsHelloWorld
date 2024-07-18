@@ -5,3 +5,10 @@ C:\Users\volod\source\repos\HelloWorldJenkinsTest\HelloWorldJenkinsTest\obj\Debu
 C:\Users\volod\source\repos\HelloWorldJenkinsTest\HelloWorldJenkinsTest\obj\Debug\HelloWorldJenkinsTest.csproj.CoreCompileInputs.cache
 C:\Users\volod\source\repos\HelloWorldJenkinsTest\HelloWorldJenkinsTest\obj\Debug\HelloWorldJenkinsTest.exe
 C:\Users\volod\source\repos\HelloWorldJenkinsTest\HelloWorldJenkinsTest\obj\Debug\HelloWorldJenkinsTest.pdb
+C:\Users\volod\Documents\JenkinsHelloWorld\bin\Debug\HelloWorldJenkinsTest.exe.config
+C:\Users\volod\Documents\JenkinsHelloWorld\bin\Debug\HelloWorldJenkinsTest.exe
+C:\Users\volod\Documents\JenkinsHelloWorld\bin\Debug\HelloWorldJenkinsTest.pdb
+C:\Users\volod\Documents\JenkinsHelloWorld\obj\Debug\HelloWorldJenkinsTest.csproj.AssemblyReference.cache
+C:\Users\volod\Documents\JenkinsHelloWorld\obj\Debug\HelloWorldJenkinsTest.csproj.CoreCompileInputs.cache
+C:\Users\volod\Documents\JenkinsHelloWorld\obj\Debug\HelloWorldJenkinsTest.exe
+C:\Users\volod\Documents\JenkinsHelloWorld\obj\Debug\HelloWorldJenkinsTest.pdb
