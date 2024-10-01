@@ -12,8 +12,9 @@ pipeline {
                 branch "fix*"
             }
             steps {
+            echo 'this is only for fix'
                 sh '''
-                cat README.md
+                  cat README.md
                 '''
             }
         }
