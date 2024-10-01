@@ -13,9 +13,7 @@ pipeline {
             }
             steps {
             echo 'this is only for fix'
-                sh '''
-                  cat README.md
-                '''
+               
             }
         }
         stage('for the PR') {
