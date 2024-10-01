@@ -1,8 +1,9 @@
 pipeline {
-agent {label "linux"}
-stages {
-stage('Hello'){
-steps {
-echo "hello from Jenkinsfile"}}
-}
+    agent any
+        stage('Hello') {
+            steps {
+                echo 'Hello from jenkinsfile'
+            }
+        }
+    }
 }
