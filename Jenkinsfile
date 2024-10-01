@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello from jenkins file..'
+                echo 'Hello from jenkins file'
             }
         }
         stage('for the fix branch') {
             when {
-                branch "fix-*"
+                branch "fix*"
             }
             steps {
                 sh '''
