@@ -6,23 +6,15 @@ pipeline {
             steps {
                 echo 'Hello from jenkins file'
             }
+            stage('Build app'){
+                steps{
+                    dotnet build 'https://github.com/DoctorVovan/JenkinsHelloWorld/blob/main/HelloWorldJenkinsTest.csproj'
+                }
         }
-        stage('for the fix branch') {
-            when {
-                branch "fix*"
+            stage('Run app'){
+                dotnet run 'https://github.com/DoctorVovan/JenkinsHelloWorld/blob/main/bin/Debug/HelloWorldJenkinsTest.exe'
             }
-            steps {
-            echo 'this is only for fix'
-               
-            }
-        }
-        stage('for the PR') {
-            when {
-                branch 'PR-*'
-            }
-            steps {
-                echo 'this only runs for the PRs testttt'
-            }
+       
         }
     }
 }
