@@ -15,6 +15,7 @@ namespace HelloWorldJenkins
             Console.WriteLine("My Worlds");
             Console.WriteLine("My test");
             Console.WriteLine("My test webhook");
+            Console.WriteLine("My test webhook");
         }
     }
 }
